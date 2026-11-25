@@ -1,5 +1,7 @@
 # PulseWatch 1.0
 
+[**Abrir a demonstração pública**](https://pulsewatch-six.vercel.app) · Somente leitura, com dados simulados.
+
 [![CI](https://github.com/oliverzxr/pulsewatch/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/oliverzxr/pulsewatch/actions/workflows/ci.yml)
 [![Licença MIT](https://img.shields.io/github/license/oliverzxr/pulsewatch?label=licen%C3%A7a)](LICENSE)
 [![Versão](https://img.shields.io/github/package-json/v/oliverzxr/pulsewatch?label=vers%C3%A3o)](package.json)
@@ -132,7 +134,7 @@ npm run preview:demo
 
 Abra [a demo local](http://127.0.0.1:4173/). Os cinco monitores, suas URLs `.test`, as latências e os incidentes são simulados e reproduzíveis. O aviso de simulação fica no cabeçalho da visão geral e das páginas individuais. O build é independente do SQLite, da autenticação e do cliente da API.
 
-Após autorização para publicar a demo, envie somente o conteúdo de `dist/demo/` à hospedagem estática. O diretório contém HTML, JavaScript, CSS, fontes e o ícone. A aplicação completa, a pasta `data/`, os backups e a chave de sessão devem ficar fora do pacote.
+A publicação na Vercel lê `vercel.json`, executa `npm run build:demo` e serve apenas `dist/demo/`. O diretório contém HTML, JavaScript, CSS, fontes e o ícone. A aplicação completa, a pasta `data/`, os backups e a chave de sessão ficam fora desse pacote.
 
 ## Limitações operacionais
 
