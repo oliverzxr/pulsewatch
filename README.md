@@ -1,5 +1,9 @@
 # PulseWatch 1.0
 
+[![CI](https://github.com/oliverzxr/pulsewatch/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/oliverzxr/pulsewatch/actions/workflows/ci.yml)
+[![Licença MIT](https://img.shields.io/github/license/oliverzxr/pulsewatch?label=licen%C3%A7a)](LICENSE)
+[![Versão](https://img.shields.io/github/package-json/v/oliverzxr/pulsewatch?label=vers%C3%A3o)](package.json)
+
 PulseWatch monitora a disponibilidade e o tempo de resposta de sites e APIs. O sistema completo executa verificações HTTP reais em segundo plano e mantém sessões e históricos separados por conta. A demonstração estática permite explorar o painel, os monitores e seus incidentes com sete dias de dados simulados.
 
 ![Visão geral da demonstração com cabeçalho compacto, cinco monitores e dados simulados](docs/screenshots/demo-dashboard.jpg)
